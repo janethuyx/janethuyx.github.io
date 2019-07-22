@@ -3,7 +3,7 @@ document.getElementById('date').innerHTML = new Date().toDateString();
 analytics.load("SDwHEfkSUEYNfFAFrnr0Brg5ePqwyYg7");
 analytics.page();
 }}();
- mixpanel.track("Song Played",{
-    "Song Artist": "The Rolling Stones",
-    "Song Title": "Gimme Shelter"
+ mixpanel.track("Test Event",{
+    "Event Name": "Login Website",
+    "Event Description": "Testing"
 });
